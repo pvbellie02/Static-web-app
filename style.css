@@ -90,3 +90,33 @@ p {
   font-size: 16px;
   color: #ddd;
 }
+.details-card {
+  background-color: #1e1e1e;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.details-card img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+}
+
+.details-card h2 {
+  color: #ff6b81;
+  margin-top: 20px;
+}
+
+.details-card p, 
+.details-card ul {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.details-card ul {
+  list-style: disc;
+  padding-left: 20px;
+}
