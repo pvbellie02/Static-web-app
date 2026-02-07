@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add a Character | Anime Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <h2 class="logo">Anime Gallery</h2>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="new-character-form.html">Add a Character</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <h1>Add a New Anime Character</h1>
+    <p>This is a static form for demonstration purposes. No data will be saved.</p>
+
+    <form class="character-form">
+      <label for="name">Character Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter character name">
+
+      <label for="anime">Anime / Universe:</label>
+      <input type="text" id="anime" name="anime" placeholder="Enter anime name">
+
+      <label for="role">Role:</label>
+      <input type="text" id="role" name="role" placeholder="Enter role (e.g., Hero, Villain)">
+
+      <label for="image">Image URL:</label>
+      <input type="text" id="image" name="image" placeholder="Enter image URL">
+
+      <label for="description">Short Description:</label>
+      <textarea id="description" name="description" placeholder="Enter a short description"></textarea>
+
+      <button type="submit">Add Character</button>
+    </form>
+  </main>
+
+</body>
+</html>
